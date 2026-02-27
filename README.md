@@ -7,7 +7,15 @@ typescript--->yes
 tests--->yes
 github actions--->true
 install playwright browser-->true
+
 npm install dotenv
+npm install winston
+npm install -D allure-playwright
+npm install -g allure-commandline
+allure –-version
+
+allure generate allure-results --clean -o allure-report
+allure open allure-report
 
 
 Folder Structure
