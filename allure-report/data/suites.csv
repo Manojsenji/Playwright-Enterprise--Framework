@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verify Dashboard heading is visible after login","28187","Dashboard visible @smoke","chromium","2026-02-27","failed","2026-02-27","","ui\DashboardVisible.spec.ts","",""

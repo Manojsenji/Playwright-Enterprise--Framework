@@ -16,7 +16,9 @@ export default defineConfig({
 
   reporter: [
     ['html'],
-    ['junit', { outputFile: 'test-results/results.xml' }]
+    ['junit', { outputFile: 'test-results/results.xml' }],
+    ['list'],
+    ['allure-playwright']
   ],
 
   use: {
@@ -24,7 +26,7 @@ export default defineConfig({
     headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
     launchOptions: {
       slowMo: 500,
     },

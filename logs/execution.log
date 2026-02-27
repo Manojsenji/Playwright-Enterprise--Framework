@@ -8,3 +8,51 @@
 [2026-02-27 12:59:18] INFO: Starting Dashboard validation test
 [2026-02-27 12:59:21] INFO: Dashboard heading is visible
 [2026-02-27 12:59:21] INFO: Test Passed: Dashboard visible
+[2026-02-27 15:11:28] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:11:34] INFO: Navigated to application
+[2026-02-27 15:11:34] INFO: Starting login process
+[2026-02-27 15:11:35] INFO: Entered username: Admin
+[2026-02-27 15:11:35] INFO: Entered password
+[2026-02-27 15:11:38] INFO: Clicked Login button
+[2026-02-27 15:11:38] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:11:38] INFO: Starting Dashboard validation test
+[2026-02-27 15:11:38] INFO: Dashboard heading is visible
+[2026-02-27 15:11:38] INFO: Test Passed: Dashboard visible @smoke
+[2026-02-27 15:22:37] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:22:42] INFO: Navigated to application
+[2026-02-27 15:22:42] INFO: Starting login process
+[2026-02-27 15:22:43] INFO: Entered username: Admin
+[2026-02-27 15:22:43] INFO: Entered password
+[2026-02-27 15:22:46] INFO: Clicked Login button
+[2026-02-27 15:22:46] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:22:46] INFO: Starting Dashboard validation test
+[2026-02-27 15:22:46] INFO: Dashboard heading is visible
+[2026-02-27 15:22:46] INFO: Test Passed: Dashboard visible @smoke
+[2026-02-27 15:26:42] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:26:46] INFO: Navigated to application
+[2026-02-27 15:26:46] INFO: Starting login process
+[2026-02-27 15:26:47] INFO: Entered username: Admin
+[2026-02-27 15:26:48] INFO: Entered password
+[2026-02-27 15:26:50] INFO: Clicked Login button
+[2026-02-27 15:26:50] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:26:50] INFO: Starting Dashboard validation test
+[2026-02-27 15:26:50] INFO: Dashboard heading is visible
+[2026-02-27 15:26:51] INFO: Test Passed: Dashboard visible @smoke
+[2026-02-27 15:34:14] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:34:20] INFO: Starting login process
+[2026-02-27 15:34:21] INFO: Entered username: Admin
+[2026-02-27 15:34:22] INFO: Entered password
+[2026-02-27 15:34:29] INFO: Clicked Login button
+[2026-02-27 15:34:29] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:34:29] INFO: Starting Dashboard validation test
+[2026-02-27 15:34:30] INFO: Dashboard heading is visible
+[2026-02-27 15:34:30] INFO: Test Passed: Dashboard visible @smoke
+[2026-02-27 15:37:03] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:37:09] INFO: Starting login process
+[2026-02-27 15:37:13] INFO: Entered username: Admin
+[2026-02-27 15:37:14] INFO: Entered password
+[2026-02-27 15:37:24] INFO: Clicked Login button
+[2026-02-27 15:37:24] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:37:24] INFO: Starting Dashboard validation test
+[2026-02-27 15:37:30] ERROR: Test Failed: Dashboard visible @smoke
+[2026-02-27 15:37:30] INFO: Screenshot attached to Allure report

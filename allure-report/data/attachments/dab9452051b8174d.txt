@@ -1,0 +1,9 @@
+[2026-02-27 15:37:03] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:37:09] INFO: Starting login process
+[2026-02-27 15:37:13] INFO: Entered username: Admin
+[2026-02-27 15:37:14] INFO: Entered password
+[2026-02-27 15:37:24] INFO: Clicked Login button
+[2026-02-27 15:37:24] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:37:24] INFO: Starting Dashboard validation test
+[2026-02-27 15:37:30] ERROR: Test Failed: Dashboard visible @smoke
+[2026-02-27 15:37:30] INFO: Screenshot attached to Allure report

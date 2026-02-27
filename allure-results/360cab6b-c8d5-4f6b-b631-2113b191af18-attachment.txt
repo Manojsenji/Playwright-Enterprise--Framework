@@ -1,0 +1,10 @@
+[2026-02-27 15:22:37] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 15:22:42] INFO: Navigated to application
+[2026-02-27 15:22:42] INFO: Starting login process
+[2026-02-27 15:22:43] INFO: Entered username: Admin
+[2026-02-27 15:22:43] INFO: Entered password
+[2026-02-27 15:22:46] INFO: Clicked Login button
+[2026-02-27 15:22:46] INFO: Login successful - Dashboard loaded
+[2026-02-27 15:22:46] INFO: Starting Dashboard validation test
+[2026-02-27 15:22:46] INFO: Dashboard heading is visible
+[2026-02-27 15:22:46] INFO: Test Passed: Dashboard visible @smoke
