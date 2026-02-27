@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "npx playwright test",
-
-  "test:qa": "cross-env ENV=qa npx playwright test",
-  "test:qa:headed": "cross-env ENV=qa npx playwright test --headed",
-  "test:qa:debug": "cross-env ENV=qa npx playwright test --debug",
-
-  "test:uat": "cross-env ENV=uat npx playwright test",
-  "test:prod": "cross-env ENV=prod npx playwright test"
-},
+    "test": "npx playwright test",
+    "test:qa": "cross-env ENV=qa npx playwright test",
+    "test:qa:headed": "cross-env ENV=qa npx playwright test --headed",
+    "test:qa:debug": "cross-env ENV=qa npx playwright test --debug",
+    "test:uat": "cross-env ENV=uat npx playwright test",
+    "test:prod": "cross-env ENV=prod npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,6 +21,7 @@
     "cross-env": "^10.1.0"
   },
   "dependencies": {
-    "dotenv": "^17.3.1"
+    "dotenv": "^17.3.1",
+    "winston": "^3.19.0"
   }
 }

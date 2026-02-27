@@ -1,4 +1,5 @@
 import { Page, Locator } from '@playwright/test';
+import { logger } from '../utils/logger';
 
 export class LoginPage {
   readonly username: Locator;
@@ -11,13 +12,19 @@ export class LoginPage {
     this.loginBtn = page.getByRole('button', { name: 'Login' });
   }
 
- async login(username: string, password: string) {
-  await this.username.fill(username);
-  await this.password.fill(password);
+  async login(username: string, password: string) {
+    logger.info('Starting login process');
 
-  await this.loginBtn.click();
+    await this.username.fill(username);
+    logger.info(`Entered username: ${username}`);
 
-  await this.page.waitForURL(/dashboard/, { timeout: 15000 });
-}
+    await this.password.fill(password);
+    logger.info('Entered password');
 
+    await this.loginBtn.click();
+    logger.info('Clicked Login button');
+
+    await this.page.waitForURL(/dashboard/, { timeout: 15000 });
+    logger.info('Login successful - Dashboard loaded');
+  }
 }
