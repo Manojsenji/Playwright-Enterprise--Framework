@@ -9,4 +9,6 @@ test('Dashboard visible', async ({ loggedInPage }) => {
   ).toBeVisible();
 
   logger.info('Dashboard heading is visible');
+  logger.info('Dashboard heading is visible');
+  logger.info('Dashboard heading is visible');
 });
